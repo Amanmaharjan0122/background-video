@@ -9,6 +9,7 @@
 .homepage {
   height: 100vh;
   width: 100%;
+  padding: 0 2rem;
 }
 .hero {
   width: 100%;
@@ -104,7 +105,7 @@ nav ul li a:hover {
   /* width: 100%; */
   /* display: flex; */
   margin-top: 5.7rem;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .row1 {
@@ -133,6 +134,7 @@ nav ul li a:hover {
   width: 100%;
   display: flex;
   gap: 2rem;
+  margin-top: 2rem;
   /* background-color: rgb(141, 98, 98); */
 }
 
@@ -147,4 +149,139 @@ nav ul li a:hover {
 .row2 .box1 img {
   height: 100%;
   width: 100%;
+}
+
+.heading h1 {
+  color: white;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.heading p {
+  color: rgb(0, 0, 0, 80%);
+  margin-bottom: 3.5rem;
+  line-height: 1.5rem;
+}
+
+.heading a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: 0.5s;
+  margin-left: 12.5rem;
+}
+.heading a:hover {
+  background-color: white;
+  color: rgb(0, 0, 0, 80%);
+}
+
+/* form section */
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.container.small {
+  width: 60%;
+  max-width: 35rem;
+  /* background-color: brown; */
+}
+
+/* header */
+#main-header,
+section {
+  padding: 3rem 0;
+  text-align: center;
+}
+#main-header img {
+  width: 10rem;
+}
+
+#main-header h1 {
+  margin: 7rem 0 1rem 0;
+}
+#main-header h2 {
+  margin-bottom: 7rem;
+}
+.btn {
+  padding: 1.3rem 3.5rem;
+  border: 1px solid rgb(159, 118, 87);
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: rgb(60, 58, 71);
+  border-color: rgb(60, 58, 71);
+  color: rgb(255, 255, 255);
+}
+
+/* design section */
+
+#our-designs {
+  background-color: rgb(239, 240, 234);
+}
+section header {
+  margin-bottom: 3.5rem;
+  color: white;
+}
+
+/* contact */
+.dark {
+  background-color: rgb(60, 58, 71);
+}
+.dark label {
+  color: rgba(255, 255, 255, 0.8);
+}
+form div {
+  margin-bottom: 1.75rem;
+}
+
+form label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  background-color: rgb(255, 255, 255, 0.1);
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+form button {
+  width: 100%;
+  cursor: pointer;
+}
+
+.dark .btn {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: transparent;
+  color: rgb(255, 255, 255);
+}
+.dark .btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(60, 58, 71);
+}
+
+p.muted {
+  color: rgb(255, 255, 255, 0.5);
+}
+form button + p {
+  margin-top: 1.75rem;
 }
